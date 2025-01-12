@@ -3,7 +3,7 @@ import bcrypt from 'bcryptjs';
 const { Pool } = pkg;
 
 const pool = new Pool({
-  user: 'tu_usuario',
+  user: 'postgres',
   host: 'localhost',
   database: 'softjobs',
   password: 'root',
